@@ -1,0 +1,84 @@
+body {
+    background: #f4f8fb;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #1a237e;
+    margin: 40px 0 30px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.div1, .div2, .div3, .div4 {
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(30, 60, 90, 0.12);
+    padding: 32px 28px 40px 28px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.15s, box-shadow 0.2s;
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin: 20px;
+
+    background-color: #e3f2fd;
+    background-image: url('/media/budget.webp');
+}
+
+.div2 {
+    background-color: #ffe0b2;
+    background-image: url('/media/OIP.webp');
+}
+
+.div3 {
+    background-color: #e3f2fd;
+    background-image: url('/media/budget.webp');
+}
+
+.div4 {
+    background-color: #ffe0b2;
+    background-image: url('/media/OIP.webp');
+}
+
+.div1:hover, .div2:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 32px rgba(30, 60, 90, 0.18);
+}
+
+#p1, #p2 {
+    font-size: 1.2rem;
+    color: #263238;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+button {
+    background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 32px;
+    font-size: 1rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+    transition: background 0.2s, transform 0.2s;
+    outline: none;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #1565c0 60%, #42a5f5 100%);
+    transform: scale(1.06);
+}
