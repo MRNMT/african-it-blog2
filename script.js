@@ -12,3 +12,13 @@
         document.getElementById('myButton4').onclick= function() {
         alert('ButEducation: E-learning platforms are expanding access to quality education.Finance: Mobile money (like M-Pesa) has revolutionized banking in East Africa.Agriculture: Apps help farmers access weather forecasts, market prices, and digital payments.Governance: E-government services reduce bureaucracy and improve transparency.ton4');
     };
+    document.querySelectorAll('.collapse-toggle').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const content = this.nextElementSibling;
+    content.style.display = (content.style.display === 'none' ? 'block' : 'none');
+  });
+});
+
+document.querySelectorAll('.collapsible-content').forEach(div => {
+  div.style.display = 'none';
+});

@@ -1,5 +1,8 @@
 
-
+*{
+     margin: 0;
+    padding: 0;
+}
 body {
     background: #f4f8fb;
     font-family: 'Roboto', Arial, sans-serif;
@@ -27,20 +30,6 @@ td {
     width: 50%;
 }
 
-/*.div1, .div2, .div3, .div4 {
-    border-radius: 18px;
-    box-shadow: 0 6px 24px rgba(30, 60, 90, 0.12);
-    padding: 32px 28px 40px 28px;
-    min-height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.15s, box-shadow 0.2s;
-    background-size: 120px 120px;
-    background-repeat: no-repeat;
-    background-position: top right;
-    margin-bottom: 20px;
-}*/
 
 .div1 {
     border-radius: 18px;
@@ -57,7 +46,7 @@ td {
     margin-bottom: 20px;
 
     background-color: #e3f2fd;
-    /*background-image: url('/media/budget.webp');*/
+ 
 }
 
 .div2 {
@@ -72,7 +61,7 @@ td {
     background-size: 120px 120px;
     background-repeat: no-repeat;
     background-position: top right;
-   margin-bottom: 20px;
+   margin-bottom: 2px;
 
     background-color: #ffe0b2;
 
@@ -81,7 +70,7 @@ td {
    border-radius: 18px;
     box-shadow: 0 6px 24px rgba(30, 60, 90, 0.12);
     padding: 32px 28px 40px 28px;
-    height: 340px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,7 +87,7 @@ td {
     border-radius: 18px;
     box-shadow: 0 6px 24px rgba(30, 60, 90, 0.12);
     padding: 32px 28px 40px 28px;
-  height: 400px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -106,16 +95,20 @@ td {
     background-size: 120px 120px;
     background-repeat: no-repeat;
     background-position: top right;
-   margin-bottom: 20px;
-margin-top: -100px;
+    margin-top: -100px;
+
     background-color: #e3f2fd;
    
 }
+
 .div1:hover, .div2:hover {
     transform: translateY(-8px) scale(1.03);
     box-shadow: 0 12px 32px rgba(30, 60, 90, 0.18);
 }
-
+.div3:hover, .div4:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 32px rgba(30, 60, 90, 0.18);
+}
 #p1, #p2 {
     font-size: 1.2rem;
     color: #263237;
@@ -229,4 +222,8 @@ button#myButton4:hover {
     line-height: 1.6;
     font-weight: 400;
     margin-top: -50px;
+}
+#budgetP:hover ,#CyberP:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 32px rgba(30, 60, 90, 0.18);
 }
