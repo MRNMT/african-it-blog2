@@ -22,3 +22,43 @@
 document.querySelectorAll('.collapsible-content').forEach(div => {
   div.style.display = 'none';
 });
+document.getElementById('toggleContentBtn').onclick = function() {
+    const mainContent = document.getElementById('div1');
+    if (mainContent.style.display === 'none') {
+        mainContent.style.display = '';
+        this.textContent = 'Hide Budget Section';
+    } else {
+        mainContent.style.display = 'none';
+        this.textContent = 'Show Budget Section';
+    }
+};
+document.getElementById('toggleContentBtn2').onclick = function() {
+    const mainContent = document.getElementById('div2');
+    if (mainContent.style.display === 'none') {
+        mainContent.style.display = '';
+        this.textContent = 'Hide Cybersecurity Section';
+    } else {
+        mainContent.style.display = 'none';
+        this.textContent = 'Show cybersecurity Section';
+    }
+};
+document.getElementById('toggleContentBtn3').onclick = function() {
+    const mainContent = document.getElementById('div3');
+    if (mainContent.style.display === 'none') {
+        mainContent.style.display = '';
+        this.textContent = 'Hide Cybersecurity Section';
+    } else {
+        mainContent.style.display = 'none';
+        this.textContent = 'Show cybersecurity Section';
+    }
+};
+document.getElementById('toggleContentBtn4').onclick = function() {
+    const mainContent = document.getElementById('div4');
+    if (mainContent.style.display === 'none') {
+        mainContent.style.display = '';
+        this.textContent = 'Hide Cybersecurity Section';
+    } else {
+        mainContent.style.display = 'none';
+        this.textContent = 'Show cybersecurity Section';
+    }
+};
