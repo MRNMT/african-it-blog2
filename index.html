@@ -1,71 +1,137 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <title>index</title>
+    <title>African IT Blog</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <h1>African IT Blog</h1>
+      <nav class="nav">
+        <button id="toggleContentBtn">Budget</button>
+        <button id="toggleContentBtn2">Cybersecurity</button>
+        <button id="toggleContentBtn3">Cloud Computing</button>
+        <button id="toggleContentBtn4">Digital Transformation</button>
+      </nav>
+    </header>
 
-    <div id="mainContent">
-        <h1>African IT blog</h1>
+    <main>
+      <section class="container">
+        <article class="card" id="div1">
+          <h2 class="title">Budget</h2>
+          <p class="description">
+            An IT budget is basically the money set aside to keep your tech
+            running smoothly. Think of it like running a household—you need to
+            plan for groceries (hardware), rent (software services), and
+            unexpected repairs (cybersecurity and training). Without a budget,
+            your systems can fall apart fast.
+          </p>
+          <img
+            src="/media/budget.webp"
+            alt="IT Budget illustration"
+            class="card-image"
+          />
+          <details>
+            <summary>View more!</summary>
+            <p>
+              What Goes Into an IT Budget? Hardware: Laptops, routers, servers,
+              backup power supplies (especially important where electricity is
+              unreliable). Software: Operating systems, business tools like
+              Microsoft 365 or Adobe, or industry-specific platforms. Cloud
+              Storage & Hosting: Services like AWS or Azure—used for data
+              backups, website hosting, and app storage. Training & Development:
+              So your team doesn’t fall behind the tech curve. Cybersecurity:
+              Firewalls, secure logins, and regular system updates to keep
+              hackers out.
+            </p>
+          </details>
+        
+        </article>
 
-        <nav class="nav">
-            <button id="toggleContentBtn">Budget</button>
-            <button id="toggleContentBtn2">Cybersecurity</button>
-            <button id="toggleContentBtn3">Cloud Computing</button>
-            <button id="toggleContentBtn4">Digital Transformation</button>
-        </nav>
-        <div class="table-container">
-            <table>
-                <tr>
-                    <td>
-                        <div class="div1" id="div1">
-                            <p id="pdv1">Budget</p>
-                            <p id="pd1">An IT budget is basically the money set aside to keep your tech running smoothly. Think of it like running a household—you need to plan for groceries (hardware), rent (software services), and unexpected repairs (cybersecurity and training). Without a budget, your systems can fall apart fast.</p>
-                            <img src="/media/budget.webp" alt="IT Budget" id="budgetP" />
-                            <details>
-                                <summary>View more!</summary>
-                                <p>
-                                    What Goes Into an IT Budget?Hardware: Laptops, routers, servers, backup power supplies (especially important where electricity is unreliable).Software: Operating systems, business tools like Microsoft 365 or Adobe, or industry-specific platforms.Cloud Storage & Hosting: Services like AWS or Azure—used for data backups, website hosting, and app storage.Training & Development: So your team doesn’t fall behind the tech curve.Cybersecurity: Firewalls, secure logins, and regular system updates to keep hackers out.
-                                </p>
-                            </details>
-                            <button id="myButton1">view more!</button>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="div2" id="div2">
-                            <p id="pdv1">Cybersecurity</p><br>
-                            <p id="pd1">Cybersecurity means protecting your digital life—from emails and passwords to customer data and company secrets. And in today’s world, one careless click can bring down an entire network.</p>
-                            <br>
-                            <img src="/media/OIP.webp" alt="IT Budget" id="CyberP" /><br>
-                            <button id="myButton2">view more</button>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="div3" id="div3">
-                            <p id="pdv1">Cloud computing</p><br>
-                            <p id="pd1">Cloud computing is the delivery of computing services—like storage, servers, databases, and software—over the internet (“the cloud”) instead of relying on local machines or data centers.</p>
-                            <br>
-                            <img src="/media/cloud.jpeg" alt="IT Budget" id="CyberP" /><br>
-                            <button id="myButton3">view more!</button>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="div4" id="div4">
-                            <p id="pdv1">Digital transformation</p><br>
-                            <br>
-                            <p id="pd1">Digital transformation is the broader shift of using digital technologies to change how organizations operate and deliver value. It’s not just about tech—it’s about mindset, strategy, and culture.</p>
-                            <img src="/media/digial.webp" alt="IT Budget" id="CyberP" /><br>
-                            <button id="myButton4">view more</button>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
+        <article class="card" id="div2">
+          <h2 class="title">Cybersecurity</h2>
+          <p class="description">
+            Cybersecurity means protecting your digital life—from emails and
+            passwords to customer data and company secrets. And in today’s
+            world, one careless click can bring down an entire network.
+          </p>
+          <img
+            src="/media/OIP.webp"
+            alt="Cybersecurity illustration"
+            class="card-image"
+          />
+          <details>
+            <summary>View more!</summary>
+            <p>
+              Strong Passwords & Multi-Factor Authentication: Don’t just use
+              "123456" and hope for the best. Staff Training: Teach people what
+              to look out for—like sketchy links or suspicious email
+              attachments. Firewall & Antivirus: These are like digital guards
+              protecting your system from invaders. Regular Backups: If things
+              go south, you don’t want to lose all your data.`
+            </p>
+          </details>
+       
+        </article>
+      </section>
+
+      <section class="container">
+        <article class="card" id="div3">
+          <h2 class="title">Cloud Computing</h2>
+          <p class="description">
+            Cloud computing is the delivery of computing services—like storage,
+            servers, databases, and software—over the internet (“the cloud”)
+            instead of relying on local machines or data centers.
+          </p>
+          <img
+            src="/media/cloud.jpeg"
+            alt="Cloud computing illustration"
+            class="card-image"
+          />
+          <details>
+            <summary>View more!</summary>
+            <p>
+              Why It Matters in Africa: Cost-effective: No need for expensive
+              hardware. You pay for what you use. Scalable: Start small and grow
+              fast—perfect for startups and SMEs. Accessible: Enables remote
+              work, online education, and digital services even in rural areas.
+              Reliable: Cloud providers offer robust security and backup
+              solutions, which is crucial in regions with unstable power and
+              internet.
+            </p>
+          </details>
+     
+        </article>
+
+        <article class="card" id="div4">
+          <h2 class="title">Digital Transformation</h2>
+          <p class="description">
+            Digital transformation is the broader shift of using digital
+            technologies to change how organizations operate and deliver value.
+            It’s not just about tech—it’s about mindset, strategy, and culture.
+          </p>
+          <img
+            src="/media/digial.webp"
+            alt="Digital transformation illustration"
+            class="card-image"
+          />
+          <details>
+            <summary>View more!</summary>
+            <p>
+              Education: E-learning platforms are expanding access to quality
+              education. Finance: Mobile money (like M-Pesa) has revolutionized
+              banking in East Africa. Agriculture: Apps help farmers access
+              weather forecasts, market prices, and digital payments.
+              Governance: E-government services reduce bureaucracy and improve
+              transparency.
+            </p>
+          </details>
+     
+        </article>
+      </section>
+    </main>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
